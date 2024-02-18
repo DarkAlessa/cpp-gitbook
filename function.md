@@ -39,7 +39,7 @@ int main() {
 
 ***
 
-#### Functor / Function Object
+#### Functor/Function Object
 
 ```cpp
 #include <iostream>
