@@ -1,4 +1,7 @@
-### Function Pointer
+# 📄 function
+
+#### Function Pointer
+
 ```cpp
 int fn(int a, int b) { return a + b; }
 int (*fp)(int,int) = fn;
@@ -11,8 +14,11 @@ FP fp = fn;
 using FP = int(*)(int,int);
 FP fp = fn;
 ```
----
-### std::function (function wrapper)
+
+***
+
+#### std::function (function wrapper)
+
 ```cpp
 #include <functional>
 	
@@ -30,8 +36,11 @@ int main() {
 }
 
 ```
----
-### Functor / Function Object
+
+***
+
+#### Functor / Function Object
+
 ```cpp
 #include <iostream>
 
@@ -49,13 +58,18 @@ int main() {
     std::cout << a << ' ' << b << '\n';
 }
 ```
----
-### Variadic arguments
-```cpp
-#include <cstdarg>
-```
----
-### Function pointer vs std::function
+
+***
+
+#### Variadic arguments
+
+<pre class="language-cpp"><code class="lang-cpp"><strong>#include &#x3C;cstdarg>
+</strong></code></pre>
+
+***
+
+#### Function pointer vs std::function
+
 ```cpp
 #include <iostream>
 #include <functional>
@@ -72,8 +86,11 @@ int main() {
     std::cout << fp(0, 0) << '\n';  // 30
 }
 ```
----
-### Lambda expression
+
+***
+
+#### Lambda expression
+
 ```cpp
 int fn(int a, int b) { return a + b; }
 
@@ -96,15 +113,19 @@ int x = [](int a, int b){ return fn(a, b); }(10, 20);   // x = 30
 
 int x = std::invoke([](int a, int b){ return fn(a, b); }, 10, 20);	// x = 30
 ```
----
-### Callback Function
+
+***
+
+#### Callback Function
+
 ```cpp
 int fn(int a, int b) { return a + b; }
 int callback(int a, int b, int(*fp)(int, int)) { return fp(a, b); }
 int x = callback(10, 20, fn);
 ```
 
-### Using functors for callback
+#### Using functors for callback
+
 ```cpp
 #include <iostream>
 
