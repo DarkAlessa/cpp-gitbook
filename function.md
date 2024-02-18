@@ -63,8 +63,9 @@ int main() {
 
 #### Variadic arguments
 
-<pre class="language-cpp"><code class="lang-cpp"><strong>#include &#x3C;cstdarg>
-</strong></code></pre>
+```cpp
+#include <cstdarg>
+```
 
 ***
 
