@@ -43,16 +43,16 @@ public:
 };
 
 int main() {
-	Functor ft;
-	int a = ft(2, 4);              // call functors
-	int b = ft.operator()(2, 4);   // same ft(2,4); 
+    Functor ft;
+    int a = ft(2, 4);              // call functors
+    int b = ft.operator()(2, 4);   // same ft(2,4); 
     std::cout << a << ' ' << b << '\n';
 }
 ```
 ---
 ### Variadic arguments
 ```cpp
-	#include <cstdarg>
+#include <cstdarg>
 ```
 ---
 ### Function pointer vs std::function
