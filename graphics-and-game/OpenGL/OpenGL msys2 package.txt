@@ -1,2 +1,0 @@
-mingw-w64-x86_64-glfw	// A free, open source, portable framework for OpenGL application development (mingw-w64)
-mingw-w64-x86_64-glm	// C++ mathematics library for 3D software based on the OpenGL Shading Language (GLSL) specification (mingw-w64)

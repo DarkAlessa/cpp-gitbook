@@ -1,6 +1,0 @@
-mingw-w64-x86_64-vulkan-headers
-mingw-w64-x86_64-vulkan-loader
-mingw-w64-x86_64-vulkan-validation-layers
-mingw-w64-x86_64-cglm
-mingw-w64-x86_64-glm
-mingw-w64-x86_64-glfw
