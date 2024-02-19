@@ -11,8 +11,6 @@
     - `short` : ปรับให้ type มีขนาดอย่างน้อย 16 bits
     - `long` : ปรับให้ type มีขนาดอย่างน้อย 32 bits
     - `long long` ปรับให้ type มีขนาดอย่างน้อย 64 bits
-
-#### ตัวอย่าง
 ```cpp
 int a      = 10;
 long b     = 20;    // มีค่าเท่ากับ long int b     = 20;
