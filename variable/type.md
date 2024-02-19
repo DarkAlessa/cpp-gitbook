@@ -1,5 +1,6 @@
 # Type
 
+## ชนิดตัวแปร
 ### 1. Void type
 ---
 ### 2. Integer types
