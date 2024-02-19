@@ -14,6 +14,13 @@
     - `long`
     - `long long`
 
+#### ตัวอย่าง
+```cpp
+int a      = 10;
+short b    = 20;    // มีค่าเท่ากับ short int b    = 20;
+signed c   = 30;    // มีค่าเท่ากับ signed int c   = 30;
+unsigned d = 40;    // มีค่าเท่ากับ unsigned int d = 40;
+```
 ---
 ### 3. Boolean type
 ---
