@@ -4,25 +4,27 @@
 ### 1. Void type
 ---
 ### 2. Integer types
-- int
+- `int` : ประเภทจำนวนเต็มพื้นฐาน คีย์เวิร์ด int อาจถูกละเว้นหากใช้ `modifiers` ใด ๆ ที่แสดงด้านล่าง
 #### Modifiers
 - Signedness
-    - signed
-    - unsigned
+    - `signed`
+    - `unsigned`
 - Size
-    - short
-    - long
-    - long long
+    - `short`
+    - `long`
+    - `long long`
 
 ---
 ### 3. Boolean type
 ---
 ### 4. Character types
-- char
-- signed char
-- unsigned char
+- `char`
+- `signed char`
+- `unsigned char`
 ---
 ### 5. Floating-point types
-- float
-- double
-- long double
+- `float`
+- `double`
+- `long double`
+---
+## การประกาศตัวแปร
