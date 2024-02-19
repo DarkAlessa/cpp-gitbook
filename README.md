@@ -1,5 +1,2 @@
-# A
+# C++ Programming
 ---
-Test
----
-# B
