@@ -43,11 +43,11 @@ char b = 'B';
 - `float` : ชนิด single precision floating-point (32 bits)
 - `double` : ชนิด double precision floating-point (64 bits)
 - `long double` : ชนิด quad precision floating-point (128 bits)
----
 ```cpp
 float a  = 1.0f;
 double b = 3.14;
 ```
+---
 
 ## 🔶Size
 ### ขนาดของ type
