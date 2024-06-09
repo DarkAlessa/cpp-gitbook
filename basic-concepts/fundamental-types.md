@@ -27,10 +27,10 @@ bool c = true;
 bool d = false;
 ```
 ---
-### 3. Character types
+### 3. Character
 - `char` : type สำหรับตัวอักษร
 - `signed char` : type สำหรับตัวอักษร (มี signed-bit)
-- `unsigned char` : type สำหรับตัวอักษร (ไม่มี signed-bit) 
+- `unsigned char` : type สำหรับตัวอักษร (ไม่มี signed-bit)
 ```cpp
 char a = 'A';
 char b = 'B';
